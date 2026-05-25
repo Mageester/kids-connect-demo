@@ -442,6 +442,29 @@ p { text-wrap: pretty; }
   .stat-bar { flex-direction: column; gap: 16px; }
 }
 
+/* ===== DEMO BANNER ===== */
+:root { --banner-height: 32px; }
+.demo-banner {
+  background: #1F2937;
+  color: rgba(255,255,255,0.92);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding: 8px 16px;
+  line-height: 1.4;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 110;
+  min-height: var(--banner-height);
+}
+.nav { top: var(--banner-height) !important; }
+.hero, .page-header { padding-top: calc(var(--nav-height) + var(--banner-height) + 40px) !important; }
+@media (max-width: 600px) {
+  :root { --banner-height: 56px; }
+  .demo-banner { font-size: 0.72rem; }
+}
+
 /* ===== BUTTON-AS-LINK RESETS (for a11y refactor) ===== */
 button.nav__link,
 button.footer__link,

@@ -48,6 +48,9 @@ export default function App() {
     <>
       <SiteSchema />
       <ScrollToTop />
+      <div className="demo-banner" role="note">
+        Private Kids Connect website concept by Axiom Web — a division of Axiom International. Not the live Kids Connect website.
+      </div>
       <Navigation currentPage={currentPage} onNavigate={handleNavigate} />
       <main style={{ flex: 1 }} key={location.pathname}>
         <Routes>
