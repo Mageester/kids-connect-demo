@@ -8,39 +8,39 @@ import Seo from '../components/Seo.jsx';
 const faqData = [
   {
     q: 'When do you offer social play groups?',
-    a: 'Social play groups run during the school year, with sessions available after school on weekday evenings and on weekends. We offer fall, winter, and spring sessions. Summer programming may also be available — contact us for current scheduling.',
+    a: 'Group sessions are available Monday to Friday after 3:00 PM and on Saturdays. Weekday sessions are often held at 3:30 or 4:30 PM. Saturday sessions are held between 9:00 AM and 6:00 PM. Fall, winter, and spring sessions are offered. Summer programming may also be available — contact for current scheduling.',
   },
   {
     q: 'What ages do you work with?',
-    a: 'We work with children and teens ages 5 through 17. Participants are grouped by age and developmental stage to ensure the best social fit and learning opportunities for each child.',
+    a: 'Kids Connect facilitates groups for preschoolers, children, and teens between ages 2–14. Session structure and activities vary depending on the age group.',
   },
   {
     q: 'How many children are in each social play group?',
-    a: 'Groups are intentionally small — typically 4 to 6 children per group. This allows for individualized attention, meaningful interactions, and a comfortable environment where every child feels seen and supported.',
+    a: 'Group sizes typically range from three to four children. Groups are intentionally small to support individual strengths, needs, and comfort.',
   },
   {
     q: 'Why are play-based activities used to facilitate social skills?',
-    a: 'Play is the most natural way children learn about the social world. When social skills are practiced through play, children are more engaged, less anxious, and more likely to generalize those skills to real-life situations. Activities are adapted to each child\'s interests to keep learning meaningful and motivating.',
+    a: 'Play is intrinsically motivating and supports participation, connection, communication, and skill development in a natural way.',
   },
   {
     q: 'Does my child have to be autistic to attend?',
-    a: 'No. While many of our participants are autistic, our groups welcome all neurodiverse children who would benefit from social play-based learning. A formal diagnosis is not required to participate.',
+    a: 'No. Kids Connect welcomes and supports all children, though many participants are autistic or neurodiverse.',
   },
   {
     q: 'Do you provide any other services?',
-    a: 'In addition to social play groups, we offer individual support sessions, parent coaching, school advocacy, and consultation services. Contact us to learn more about how we can support your family\'s specific needs.',
+    a: 'In addition to social play groups, Kids Connect offers individual support sessions, parent coaching, school advocacy, consultation services, and support navigating funding, grants, community resources, JFEs, and additional service providers.',
   },
   {
     q: 'How long is a session?',
-    a: 'Sessions are typically 1.5 to 2 hours depending on the age group. Younger groups tend to be shorter, while older groups may run longer to allow for more complex social activities and reflection.',
+    a: 'Each session is 70 minutes.',
   },
   {
     q: 'I\'m interested in registering my child. What are the next steps?',
-    a: 'Start by filling out our inquiry form or giving us a call at (778) 772-3821. We\'ll schedule a brief phone consultation to learn about your child, discuss your goals, and determine the best group fit. Once matched, your child can join at the next available start date.',
+    a: 'Families can get in touch through the website or email kidsconnectburnaby@gmail.com. Before registration, Kids Connect requires a completed intake form and will discuss potential group placement recommendations.',
   },
   {
     q: 'How does billing work?',
-    a: 'We bill monthly for ongoing group participation. Our services may be eligible for coverage through autism funding, MCFD, the At Home Program, and other family support programs. We\'re happy to provide documentation to support your funding applications.',
+    a: 'Kids Connect is on the Registry for Autism Service Providers (RASP) and can directly bill the Autism Funding Unit (AFU). Services may also qualify for CKNW Kids’ Fund, Jordan’s Principle, and Distributed Learning funds.',
   },
 ];
 
@@ -97,7 +97,7 @@ export default function FAQPage({ onNavigate }) {
                 <div
                   id={`faq-answer-${i}`}
                   className="faq-item__answer"
-                  style={{ maxHeight: openIndex === i ? 400 : 0, opacity: openIndex === i ? 1 : 0 }}
+                  style={{ maxHeight: openIndex === i ? 600 : 0, opacity: openIndex === i ? 1 : 0 }}
                 >
                   <div className="faq-item__answer-inner">{item.a}</div>
                 </div>

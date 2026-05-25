@@ -12,7 +12,7 @@ export default function ProgramsPage({ onNavigate }) {
     <div className="page-enter" ref={ref}>
       <Seo
         title="Programs — Brick Club"
-        description="Kids Connect — Brick Club uses LEGO® building and collaborative play to develop social skills for neurodiverse children ages 2–13 in Burnaby, BC."
+        description="Kids Connect — Brick Club uses LEGO® building and collaborative play to develop social skills for neurodiverse children ages 2–14 in Burnaby, BC."
         path="/programs"
       />
       <div className="page-header">
@@ -59,10 +59,10 @@ export default function ProgramsPage({ onNavigate }) {
           <h2 className="text-center" style={{ marginBottom: 48 }}>Program at a Glance</h2>
           <div className="grid-4">
             {[
-              { label: 'Ages', value: '2 – 13', desc: 'Grouped by age and developmental stage' },
-              { label: 'Group Size', value: '2 – 5', desc: 'Small groups for meaningful interactions' },
-              { label: 'Duration', value: '1.5 – 2 hrs', desc: 'Age-appropriate session lengths' },
-              { label: 'Schedule', value: 'Weekday & Weekend', desc: 'Flexible after-school & morning sessions' },
+              { label: 'Ages', value: '2 – 14', desc: 'Preschoolers, children, and teens' },
+              { label: 'Group Size', value: '3 – 4', desc: 'Small groups for meaningful interactions' },
+              { label: 'Duration', value: '70 min', desc: 'Each session is 70 minutes' },
+              { label: 'Schedule', value: 'Mon–Sat', desc: 'Weekdays after 3 PM · Saturdays 9 AM–6 PM' },
             ].map((item, i) => (
               <div key={item.label} className="card reveal" style={{ textAlign: 'center', transitionDelay: `${i * 0.09}s` }}>
                 <div style={{
@@ -143,7 +143,7 @@ export default function ProgramsPage({ onNavigate }) {
           </div>
           <div className="grid-3">
             {[
-              { step: '01', title: 'Reach Out', desc: 'Fill out our inquiry form or give us a call at (778) 772-3821. Tell us a bit about your child and what you\'re hoping for.' },
+              { step: '01', title: 'Reach Out', desc: 'Fill out our inquiry form or give us a call at (778) 772-3631. Tell us a bit about your child and what you\'re hoping for.' },
               { step: '02', title: 'Phone Consultation', desc: 'We\'ll schedule a brief phone call to learn about your child\'s needs, goals, and interests, and determine the best group fit.' },
               { step: '03', title: 'Join a Group', desc: 'Your child is thoughtfully matched to a group by age and stage. Sessions begin at the next available intake date.' },
             ].map((item, i) => (
@@ -165,10 +165,10 @@ export default function ProgramsPage({ onNavigate }) {
         <div className="container" style={{ textAlign: 'center', maxWidth: 720 }}>
           <h2 style={{ marginBottom: 16 }}>Funding &amp; Eligibility</h2>
           <p className="text-secondary" style={{ marginBottom: 16, lineHeight: 1.82 }}>
-            Kids Connect programs are eligible for coverage through autism funding, MCFD, At Home Program, and other BC family support programs. A formal autism diagnosis is not required to attend — our groups welcome all neurodiverse children who would benefit from social play-based learning.
+            Kids Connect is on the Registry for Autism Service Providers (RASP) and services can be directly billed to the Autism Funding Unit (AFU). Services may also qualify for CKNW Kids&apos; Fund, Jordan&apos;s Principle, and Distributed Learning funds.
           </p>
           <p className="text-secondary" style={{ marginBottom: 32, lineHeight: 1.82 }}>
-            We&apos;re happy to provide documentation to support your funding applications and guide you through the process.
+            A formal autism diagnosis is not required to attend — our groups welcome all children who would benefit from social play-based learning. We&apos;re happy to help you navigate the Autism Funding Unit, write JFEs, and access grants and community-based resources.
           </p>
           <button type="button" className="btn btn--accent btn--lg" onClick={() => onNavigate('contact')}>
             Ask About Funding <ArrowRight size={18} />

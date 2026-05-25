@@ -29,7 +29,7 @@ export default function HomePage({ onNavigate }) {
                 Social Play Groups for Neurodiverse Children
               </h1>
               <p className="hero__subtitle hero-el hero-el-3">
-                Kids Connect – Brick Club builds real friendships, confidence, and social skills through small-group, play-based sessions designed for neurodiverse children and teens in Burnaby.
+                Kids Connect builds real friendships, confidence, and social skills through small-group, play-based sessions for preschoolers, children, and teens ages 2–14 in Burnaby.
               </p>
               <div className="hero__actions hero-el hero-el-4">
                 <button type="button" className="btn btn--primary btn--lg" onClick={() => onNavigate('programs')}>
@@ -40,7 +40,7 @@ export default function HomePage({ onNavigate }) {
                 </button>
               </div>
               <div className="hero-el hero-el-5" style={{ marginTop: 28, display: 'flex', gap: 10, flexWrap: 'wrap' }}>
-                {['Ages 2–13', '2–5 per group', 'Weekday & Weekend', 'Funding Eligible'].map((tag) => (
+                {['Ages 2–14', '3–4 per group', 'Mon–Fri after 3 PM · Sat', 'RASP · Direct AFU Billing'].map((tag) => (
                   <span key={tag} className="badge badge--primary" style={{ fontSize: '0.8rem' }}>{tag}</span>
                 ))}
               </div>
@@ -158,10 +158,10 @@ export default function HomePage({ onNavigate }) {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                { label: 'Age Range', value: '2 – 13', sub: 'Grouped by age & developmental stage' },
-                { label: 'Group Size', value: '2 – 5', sub: 'Small, intentional groups only' },
-                { label: 'Schedule', value: 'Flexible', sub: 'Weekday & weekend sessions available' },
-                { label: 'Session', value: '1.5 – 2 hrs', sub: 'Age-appropriate duration per group' },
+                { label: 'Age Range', value: '2 – 14', sub: 'Preschoolers, children & teens' },
+                { label: 'Group Size', value: '3 – 4', sub: 'Small, intentional groups only' },
+                { label: 'Schedule', value: 'Mon–Sat', sub: 'Weekdays after 3 PM · Saturdays 9–6' },
+                { label: 'Session', value: '70 min', sub: 'Each session is 70 minutes' },
               ].map((item, i) => (
                 <div
                   key={item.label}
@@ -348,9 +348,9 @@ export default function HomePage({ onNavigate }) {
       {/* FUNDING */}
       <section className="reveal" style={{ background: 'var(--color-primary-light)', padding: '48px 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <h3 style={{ color: 'var(--color-primary)', marginBottom: 10 }}>Eligible for Autism &amp; Other Funding</h3>
-          <p className="text-secondary" style={{ maxWidth: 560, margin: '0 auto 24px', lineHeight: 1.75 }}>
-            Our programs may be covered through autism funding, MCFD, At Home Program, and other family support programs across BC.
+          <h3 style={{ color: 'var(--color-primary)', marginBottom: 10 }}>RASP Registered · Direct AFU Billing</h3>
+          <p className="text-secondary" style={{ maxWidth: 620, margin: '0 auto 24px', lineHeight: 1.75 }}>
+            Kids Connect is on the Registry for Autism Service Providers (RASP) and can directly bill the Autism Funding Unit (AFU). Services may also qualify for CKNW Kids&apos; Fund, Jordan&apos;s Principle, and Distributed Learning funds.
           </p>
           <button type="button" className="btn btn--primary btn--sm" onClick={() => onNavigate('contact')}>
             Ask About Funding

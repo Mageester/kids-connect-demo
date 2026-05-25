@@ -135,7 +135,7 @@ export default function AboutPage({ onNavigate }) {
                   'Zones of Regulation',
                   'Low Arousal Approach',
                   'Executive Function Skills — Sarah Ward',
-                  'Collaborative Proactive Solutions — Dr. Ross Green',
+                  'Collaborative Proactive Solutions — Dr. Ross Greene',
                   'Positive Behavior Interventions and Supports',
                 ],
               },

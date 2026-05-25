@@ -7,10 +7,10 @@ const schema = {
   name: 'Kids Connect',
   description:
     'Play-based social groups and autism services for neurodiverse children and teens in Burnaby, BC.',
-  url: 'https://kidsconnect.ca',
-  telephone: '+1-778-772-3821',
-  email: 'info@kidsconnect.ca',
-  image: 'https://kidsconnect.ca/uploads/cropped-logo.webp',
+  url: 'https://kids-connect.ca',
+  telephone: '+1-778-772-3631',
+  email: 'kidsconnectburnaby@gmail.com',
+  image: 'https://kids-connect.getaxiom.ca/uploads/cropped-logo.webp',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '6711 6th Street',

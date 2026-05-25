@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const SITE_URL = 'https://kidsconnect.ca';
+const SITE_URL = 'https://kids-connect.getaxiom.ca';
 const DEFAULT_OG_IMAGE = '/uploads/main-space_-1024x627.webp';
 
 export default function Seo({ title, description, path = '/', image = DEFAULT_OG_IMAGE }) {
-  const fullTitle = title ? `${title} — Kids Connect` : 'Kids Connect — Social Play Groups for Neurodiverse Children in Burnaby, BC';
+  const fullTitle = title ? `${title} — Kids Connect Concept` : 'Kids Connect Concept — Social Play Groups for Neurodiverse Children in Burnaby, BC';
   const url = `${SITE_URL}${path}`;
   const imgUrl = image.startsWith('http') ? image : `${SITE_URL}${image}`;
 

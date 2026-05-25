@@ -221,14 +221,14 @@ export default function ContactPage({ onNavigate }) {
                     <span style={{ color: 'var(--color-primary)', marginTop: 2 }}><PhoneIcon /></span>
                     <div>
                       <div style={{ fontWeight: 600, fontSize: '0.95rem' }}>Phone</div>
-                      <a className="text-secondary" href="tel:+17787723821" style={{ fontSize: '0.9rem', textDecoration: 'none', color: 'inherit' }}>(778) 772-3821</a>
+                      <a className="text-secondary" href="tel:+17787723631" style={{ fontSize: '0.9rem', textDecoration: 'none', color: 'inherit' }}>(778) 772-3631</a>
                     </div>
                   </div>
                   <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
                     <span style={{ color: 'var(--color-primary)', marginTop: 2 }}><MailIcon /></span>
                     <div>
                       <div style={{ fontWeight: 600, fontSize: '0.95rem' }}>Email</div>
-                      <a className="text-secondary" href="mailto:info@kidsconnect.ca" style={{ fontSize: '0.9rem', textDecoration: 'none', color: 'inherit' }}>info@kidsconnect.ca</a>
+                      <a className="text-secondary" href="mailto:kidsconnectburnaby@gmail.com" style={{ fontSize: '0.9rem', textDecoration: 'none', color: 'inherit', wordBreak: 'break-all' }}>kidsconnectburnaby@gmail.com</a>
                     </div>
                   </div>
                 </div>

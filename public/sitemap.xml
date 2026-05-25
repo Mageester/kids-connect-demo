@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kidsconnect.ca/</loc>
+    <loc>https://kids-connect.getaxiom.ca/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://kidsconnect.ca/programs</loc>
+    <loc>https://kids-connect.getaxiom.ca/programs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kidsconnect.ca/about</loc>
+    <loc>https://kids-connect.getaxiom.ca/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kidsconnect.ca/faq</loc>
+    <loc>https://kids-connect.getaxiom.ca/faq</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kidsconnect.ca/contact</loc>
+    <loc>https://kids-connect.getaxiom.ca/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

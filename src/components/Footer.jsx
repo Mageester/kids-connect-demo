@@ -23,20 +23,21 @@ export default function Footer({ onNavigate }) {
           <div>
             <div className="footer__heading">Services</div>
             <span className="footer__link">Social Play Groups</span>
-            <span className="footer__link">Autism Services</span>
+            <span className="footer__link">Individual Support</span>
             <span className="footer__link">Parent Coaching</span>
-            <span className="footer__link">Advocacy</span>
+            <span className="footer__link">School Advocacy</span>
+            <span className="footer__link">Consultation</span>
           </div>
           <div>
             <div className="footer__heading">Contact</div>
-            <span className="footer__link" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <MapPinIcon /> Burnaby, BC
+            <span className="footer__link" style={{ display: 'flex', alignItems: 'flex-start', gap: 8 }}>
+              <MapPinIcon /> <span>6711 6th Street<br />Burnaby, BC</span>
             </span>
-            <a className="footer__link" href="tel:+17787723821" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <PhoneIcon /> (778) 772-3821
+            <a className="footer__link" href="tel:+17787723631" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <PhoneIcon /> (778) 772-3631
             </a>
-            <a className="footer__link" href="mailto:info@kidsconnect.ca" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <MailIcon /> info@kidsconnect.ca
+            <a className="footer__link" href="mailto:kidsconnectburnaby@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: 8, wordBreak: 'break-all' }}>
+              <MailIcon /> kidsconnectburnaby@gmail.com
             </a>
           </div>
         </div>

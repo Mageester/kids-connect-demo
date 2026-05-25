@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kidsconnect.ca/sitemap.xml
+Sitemap: https://kids-connect.getaxiom.ca/sitemap.xml
