@@ -1,1 +1,2 @@
-# SPA fallback handled by wrangler.toml not_found_handling
+# intentionally empty - SPA fallback in wrangler.toml via not_found_handling
+# cache-bust: 2026-05-25T03:12:00Z

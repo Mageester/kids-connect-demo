@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "icons": "node scripts/gen-icons.mjs",
+    "prebuild": "node -e \"import('node:fs').then(f=>f.rmSync('dist',{recursive:true,force:true}))\"",
     "build": "vite build",
     "preview": "vite preview --port 4173",
     "deploy": "wrangler pages deploy dist --project-name=kids-connect"
