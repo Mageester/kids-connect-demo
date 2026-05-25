@@ -1,0 +1,25 @@
+{
+  "name": "kids-connect",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Kids Connect — Social Play Groups for Neurodiverse Children in Burnaby, BC",
+  "scripts": {
+    "dev": "vite",
+    "icons": "node scripts/gen-icons.mjs",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "deploy": "wrangler pages deploy dist --project-name=kids-connect"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "sharp": "^0.34.5",
+    "vite": "^6.4.2"
+  }
+}

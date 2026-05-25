@@ -441,3 +441,35 @@ p { text-wrap: pretty; }
   .container { padding: 0 16px; }
   .stat-bar { flex-direction: column; gap: 16px; }
 }
+
+/* ===== BUTTON-AS-LINK RESETS (for a11y refactor) ===== */
+button.nav__link,
+button.footer__link,
+button.mobile-menu__link {
+  text-align: left;
+  color: inherit;
+  font: inherit;
+}
+button.footer__link {
+  display: block;
+  width: 100%;
+  padding: 4px 0;
+  color: rgba(255,255,255,0.7);
+}
+button.footer__link:hover { opacity: 1; color: #fff; }
+button.nav__link { color: var(--color-text-secondary); }
+.nav__brand:focus-visible,
+button.nav__link:focus-visible,
+button.footer__link:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
